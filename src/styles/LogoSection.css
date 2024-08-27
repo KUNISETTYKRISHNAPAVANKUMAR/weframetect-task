@@ -1,0 +1,154 @@
+.logosection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    top: 294px;
+    left: 310px;
+    gap: 12px;
+    opacity: 0px;
+    color: #116A6C;
+
+}
+
+.logo div {
+    width: 20px;
+    height: 24px;
+    border-radius: 24px 0px;
+    background-color: #28E3E9;
+}
+
+.logosection-right {
+    /* width: 800px; */
+    min-width: 300px;
+    height: auto;
+    top: 302px;
+    left: 814px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logosection-input-con {
+    width: 340px;
+    height: 34px;
+    padding: 6px 16px 8px 16px;
+    gap: 0px;
+    border-radius: 30px;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+    background: #8191911A;
+    min-width: 190px;
+}
+
+#header-search-icon{
+    color: #28E3E9;
+
+}
+
+.logosection-right input {
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    text-align: left;
+    width: 100px;
+    height: 19px;
+    opacity: 0px;
+    border: none;
+    outline: none;
+    background: #8191911A;
+    color: #62C3C6;
+    ;
+}
+
+.logosection-right select {
+    border: none;
+    outline: none;
+    width: 173px;
+    min-width: 100px;
+    height: 34px;
+    padding: 2px 12px 2px 12px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #365758;
+    background: #62C3C64D;
+
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    background: #62C3C64D;
+    width: 177px;
+    height: 34px;
+    padding: 2px 12px 2px 12px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    color: #365758;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+#on {
+    color: #62C3C6;
+    width: 50px;
+    height: 40px;
+    font-size: 70px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#off {
+    color: #62C3C6;
+    width: 50px;
+    height: 40px;
+    font-size: 70px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #045A5C;
+    width: 48px;
+    height: 34px;
+    padding: 2px 12px 2px 12px;
+    border-radius: 4px;
+    background: #62C3C64D
+}
+
+@media screen and (max-width:960px) {
+    .logosection {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:600px) {}

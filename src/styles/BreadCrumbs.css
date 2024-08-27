@@ -1,0 +1,84 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    width: 404px;
+    height: 20px;
+    gap: 20px;
+    min-width: 250px;
+    color: #62C3C6;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+}
+
+.bread-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.breadcrumb-right {
+    width: 223px;
+    height: 63px;
+    top: 194px;
+    left: 1387px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0px;
+
+}
+
+.breadcrumb-right div {
+    width: 223px;
+    height: 18px;
+    color: #365758;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+#breadcrumb-right-btn {
+    border: 20px 0px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 24px 0px;
+    width: 100%;
+    height: 33px;
+    padding: 7px 20px 8px 20px;
+    border-radius: 24px 0px 24px 0px;
+    border: 2px 0px 0px 0px;
+    color: #045A5C;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    letter-spacing: 0.01em;
+    background-color: white;
+}
+
+@media screen and (max-width:500px) {
+    .bread-con {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .breadcrumb-right{
+        width: 100%;
+        text-align: center;
+    }
+    .breadcrumb-right div{
+        width: 100%;
+    }
+    .breadcrumbs {
+        font-size: 14px;
+        gap: 10px
+    }
+}

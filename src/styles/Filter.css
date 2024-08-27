@@ -1,0 +1,191 @@
+.filter-con {
+    max-width: 220px;
+    height: 1322px;
+    min-width: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    padding-top:10px ;
+}
+
+.filter-head {
+    width: 100%;
+    height: 34px;
+    padding: 2px 10px 2px 10px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 0px 0px 2px 0px;
+    background: #62C3C61A;
+    color: #045A5C;
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.toprange,
+.range-middle,
+.range-bottom,
+.filter-middle,
+.filter-bottom {
+    margin-top: 18px;
+    padding: 18px 0;
+    border-bottom: 1px solid #62C3C64D
+}
+
+h4 {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: center;
+    width: 250px;
+    min-width: 100px;
+
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    color: #365758;
+    margin-bottom: 18px;
+}
+
+.range {
+    width: 250px;
+    min-width: 100px;
+
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.range div {
+    width: 116px;
+    min-width: 100px;
+
+    height: 24px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+    text-align: left;
+    color: #365758;
+    background: #8191911A;
+}
+
+.filter-checklist {
+    margin: 18px 0px;
+    padding: 18px 0px;
+    border-bottom: 1px solid #62C3C64D
+}
+
+.checklist-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#checklist-title {
+    width: 80%;
+    text-align: center;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: center;
+    color: #365758;
+
+}
+
+#checklist-icon {
+    color: #62C3C6;
+
+}
+
+.checklist-tag {
+    text-align: center;
+    color: #045A5C;
+    border: 2px solid #ECFEAA;
+    width: 250px;
+    min-width: 100px;
+
+    height: 33px;
+    padding: 7px 20px 8px 20px;
+    gap: 10px;
+    border-radius: 24px 0px 24px 0px;
+    opacity: 0px;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.filter-middle-con {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter-middle-con div {
+    width: 80.67px;
+    height: 28px;
+    padding: 4px 10px 4px 10px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    background: #62C3C64D;
+
+
+}
+
+#first{
+    background: #62C3C6;
+    color: white;
+}
+
+.filter-bottom-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-bottom-con div{
+    width: fit-content;
+height: 28px;
+padding: 4px 10px 4px 10px;
+gap: 10px;
+border-radius: 4px;
+text-align: center;
+background: #62C3C64D;
+
+}
+
+.filter-bottom{
+    margin-top: 18px;
+    border-bottom: none;
+}
+
+.bottom-checklist-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #62C3C64D;
+    margin: 18px 0px;
+    padding: 18px 0px;
+}
+
+#comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+#cross{
+    color: #28E3E9;
+
+}
+
+@media screen and (max-width:430px) {
+    .filter-con{
+        margin-top: 100px;
+    }
+}
