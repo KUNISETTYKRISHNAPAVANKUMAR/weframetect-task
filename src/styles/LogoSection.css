@@ -10,12 +10,8 @@
     align-items: center;
     width: 160px;
     height: 50px;
-    top: 294px;
-    left: 310px;
     gap: 12px;
-    opacity: 0px;
     color: #116A6C;
-
 }
 
 .logo div {
@@ -26,13 +22,9 @@
 }
 
 .logosection-right {
-    /* width: 800px; */
     min-width: 300px;
     height: auto;
-    top: 302px;
-    left: 814px;
     gap: 20px;
-    opacity: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +38,6 @@
     gap: 0px;
     border-radius: 30px;
     justify-content: space-between;
-    opacity: 0px;
     display: flex;
     background: #8191911A;
     min-width: 190px;
@@ -65,12 +56,10 @@
     text-align: left;
     width: 100px;
     height: 19px;
-    opacity: 0px;
     border: none;
     outline: none;
     background: #8191911A;
     color: #62C3C6;
-    ;
 }
 
 .logosection-right select {
@@ -82,7 +71,6 @@
     padding: 2px 12px 2px 12px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
     font-family: Sora;
     font-size: 16px;
     font-weight: 600;
@@ -118,9 +106,6 @@
     width: 50px;
     height: 40px;
     font-size: 70px;
-    gap: 0px;
-    opacity: 0px;
-
 }
 
 #off {
@@ -128,8 +113,6 @@
     width: 50px;
     height: 40px;
     font-size: 70px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 #hamburger {

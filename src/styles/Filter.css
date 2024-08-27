@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 18px;
-    padding-top:10px ;
+    padding-top: 10px;
 }
 
 .filter-head {
@@ -46,10 +46,7 @@ h4 {
     text-align: center;
     width: 250px;
     min-width: 100px;
-
     height: 23px;
-    gap: 0px;
-    opacity: 0px;
     color: #365758;
     margin-bottom: 18px;
 }
@@ -57,7 +54,6 @@ h4 {
 .range {
     width: 250px;
     min-width: 100px;
-
     height: 24px;
     display: flex;
     justify-content: space-between;
@@ -66,7 +62,6 @@ h4 {
 .range div {
     width: 116px;
     min-width: 100px;
-
     height: 24px;
     padding: 2px 10px 2px 10px;
     border-radius: 20px;
@@ -110,12 +105,10 @@ h4 {
     border: 2px solid #ECFEAA;
     width: 250px;
     min-width: 100px;
-
     height: 33px;
     padding: 7px 20px 8px 20px;
     gap: 10px;
     border-radius: 24px 0px 24px 0px;
-    opacity: 0px;
     background-color: white;
     margin: 10px 0px;
 }
@@ -131,40 +124,36 @@ h4 {
     padding: 4px 10px 4px 10px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
     text-align: center;
     background: #62C3C64D;
-
-
 }
 
-#first{
+#first {
     background: #62C3C6;
     color: white;
 }
 
-.filter-bottom-con{
+.filter-bottom-con {
     display: flex;
     justify-content: space-between;
 }
 
-.filter-bottom-con div{
+.filter-bottom-con div {
     width: fit-content;
-height: 28px;
-padding: 4px 10px 4px 10px;
-gap: 10px;
-border-radius: 4px;
-text-align: center;
-background: #62C3C64D;
-
+    height: 28px;
+    padding: 4px 10px 4px 10px;
+    gap: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background: #62C3C64D;
 }
 
-.filter-bottom{
+.filter-bottom {
     margin-top: 18px;
     border-bottom: none;
 }
 
-.bottom-checklist-head{
+.bottom-checklist-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -173,19 +162,19 @@ background: #62C3C64D;
     padding: 18px 0px;
 }
 
-#comment{
+#comment {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 18px;
 }
-#cross{
-    color: #28E3E9;
 
+#cross {
+    color: #28E3E9;
 }
 
 @media screen and (max-width:430px) {
-    .filter-con{
+    .filter-con {
         margin-top: 100px;
     }
 }

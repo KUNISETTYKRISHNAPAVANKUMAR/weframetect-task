@@ -23,13 +23,9 @@
 .breadcrumb-right {
     width: 223px;
     height: 63px;
-    top: 194px;
-    left: 1387px;
     gap: 12px;
     display: flex;
     flex-direction: column;
-    opacity: 0px;
-
 }
 
 .breadcrumb-right div {
